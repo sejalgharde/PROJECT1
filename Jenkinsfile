@@ -15,8 +15,6 @@ pipeline {
 	                 }}
 		stage('Deployment'){
 		   steps {
-		sh 'cp target/PROJECT1.war /home/sejal/Documents/devops-software/apache-tomcat-9.0.82/webapps
-'
+		sh 'cp target/PROJECT1.war /home/sejal/Documents/devops-software/apache-tomcat-9.0.82/webapps'
 			}}	
 }}
-
