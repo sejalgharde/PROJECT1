@@ -10,8 +10,7 @@ pipeline {
 		      }}
 		stage('Build') {
 	           steps {
-			  sh '/home/sejal/Documents/devops-software/apache-maven-3.9.5
-/bin/mvn install'
+			  sh '/home/sejal/Documents/devops-software/apache-maven-3.9.5/bin/mvn install'
 	                 }}
 		stage('Deployment'){
 		   steps {
